@@ -19,15 +19,39 @@ if len(str(inteiro)) == 3:
     centenas = str(inteiro)[0]
     dezenas = str(inteiro)[1]
     unidades = str(inteiro)[2]
+    if (int(centenas) == 1):
+        centenas = ("%s centena" %(centenas))
+    else:
+        centenas = ("%s centenas" %(centenas))
+    if (int(dezenas) == 1):
+        dezenas = ("%s dezena" %(dezenas))
+    else:
+        dezenas = ("%s dezenas" %(dezenas))
+    if (int(unidades) == 1):
+        unidades = ("%s unidade" %(unidades))
+    else:
+        unidades = ("%s unidades" %(unidades))
     # Saída de Dados      
-    print("O seu número possui %s centenas, %s dezenas e %s unidades." %(centenas, dezenas, unidades))
+    print("O seu número possui %s, %s e %s." %(centenas, dezenas, unidades))
 if len(str(inteiro)) == 2:
     dezenas = str(inteiro)[0]
     unidades = str(inteiro)[1]
+    if (int(dezenas) == 1):
+        dezenas = ("%s dezena" %(dezenas))
+    else:
+        dezenas = ("%s dezenas" %(dezenas))
+    if (int(unidades) == 1):
+        unidades = ("%s unidade" %(unidades))
+    else:
+        unidades = ("%s unidades" %(unidades))
     # Saída de Dados      
     print("O seu número possui %s dezenas e %s unidades." %(dezenas, unidades))
 if len(str(inteiro)) == 1:
     unidades = str(inteiro)[0]
+    if (int(unidades) == 1):
+        unidades = ("%s unidade" %(unidades))
+    else:
+        unidades = ("%s unidades" %(unidades))
     # Saída de Dados      
     print("O seu número possui %s unidades." %(unidades))
     

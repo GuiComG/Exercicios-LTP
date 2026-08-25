@@ -17,7 +17,11 @@ if len(data) == 10:
         float(mes)
         float(dia)
         float(ano)
-        if float(mes) <= 12 and float(dia) <= 30:
+        if (float(ano) % 4 == 0) or (float(ano) % 400 == 0):
+            diasmeses = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+        else:
+            diasmeses = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+        if float(mes) <= 12 and float(dia) <= diasmeses[int(mes) - 1]:
             validade = "Válido!"
     except ValueError:
         # Saída de Dados
