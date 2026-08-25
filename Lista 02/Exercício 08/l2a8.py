@@ -5,9 +5,9 @@ Enunciado: "Faça um programa que pergunte o preço de três produtos e informe 
 '''
 # Entrada de Dados
 
-Num1 = input("Me dê o preço de um produto > ")
-Num2 = input("Me dê o preço de outro produto. > ")
-Num3 = input("Me dê o preço de um último produto. > ")
+Num1 = float(input("Me dê o preço de um produto > "))
+Num2 = float(input("Me dê o preço de outro produto. > "))
+Num3 = float(input("Me dê o preço de um último produto. > "))
 
 # Processamento de Dados
 

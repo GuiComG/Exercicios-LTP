@@ -9,14 +9,14 @@ o terceiro elevado ao cubo."
 # Entrada de Dados
 
 Inteiro = int(input("Me dê um número inteiro! > "))
-Real1 = float(input("Me dê um número real! > "))
-Real2 = float(input("Me dê um outro número real! > "))
+Inteiro2 = int(input("Me dê outro número inteiro! > "))
+Real = float(input("Me dê um número real! > "))
 
 # Processamento de Dados
 
-a = (2 * Inteiro) * (Real1 / 2)
-b = (Inteiro * 3) + (Real2)
-c = (Real2 ** 3)
+a = (2 * Inteiro) * (Inteiro2 / 2)
+b = (Inteiro * 3) + (Real)
+c = (Real ** 3)
 
 # Saída de Dados
 print("O produto do dobro do número inteiro com metade do primeiro número real é %.2f." %(float(a)))

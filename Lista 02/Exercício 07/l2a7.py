@@ -5,9 +5,9 @@ Enunciado: "Faça um Programa que leia três números e mostre o maior e o menor
 '''
 # Entrada de Dados
 
-Num1 = input("Me dê um número. > ")
-Num2 = input("Me dê outro número. > ")
-Num3 = input("Me dê um último número. > ")
+Num1 = float(input("Me dê um número. > "))
+Num2 = float(input("Me dê outro número. > "))
+Num3 = float(input("Me dê um último número. > "))
 
 # Processamento de Dados
 
@@ -31,5 +31,5 @@ if Num3 < Num1 and Num3 < Num2:
     
 # Saída de Dados
 
-print("O número maior entre os 3 é %.1f!" %(float(numeromaior)))
-print("O número menor entre os 3 é %.1f!" %(float(numeromenor)))
+print("O número maior entre os 3 é %.1f!" %(numeromaior))
+print("O número menor entre os 3 é %.1f!" %(numeromenor))

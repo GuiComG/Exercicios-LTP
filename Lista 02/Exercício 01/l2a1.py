@@ -5,8 +5,8 @@ Enunciado: "Faça um Programa que peça dois números e imprima o maior deles."
 '''
 # Entrada de Dados
 
-Num1 = input("Me dê um número. > ")
-Num2 = input("Me dê outro número. > ")
+Num1 = float(input("Me dê um número. > "))
+Num2 = float(input("Me dê outro número. > "))
 
 # Processamento de Dados
 
@@ -22,4 +22,4 @@ else:
 
 # Saída de Dados
 
-print("%.1f é maior que %.1f!" %(float(numeromaior), float(numeromenor)))
+print("%.1f é maior que %.1f!" %(numeromaior, numeromenor))
